@@ -5,11 +5,11 @@ A lot of things will be covered, including create bootable SD card, preparing de
 
 ## Content
 
-### 1. Getting started
+### [1. Getting started](01_GetStarted.md)
 
-### 2. Preparing dev environment
+### [2. Preparing dev environment](02_DevEnv.md)
 
-### 3. Interfacing GPIOs
+### [3. Interfacing GPIOs](03_GPIO.md)
 
 ### 4. I2C OLED display
 
