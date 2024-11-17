@@ -11,7 +11,7 @@ A lot of things will be covered, including create bootable SD card, preparing de
 
 ### [3. Interfacing GPIOs](03_GPIO.md)
 
-### 4. I2C OLED display
+### [4. I2C OLED display driver](04_I2cOledDriver.md)
 
 ### 5. SPI sensor
 

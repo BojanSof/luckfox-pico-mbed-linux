@@ -11,23 +11,23 @@ The Linux kernel provides pseudo-filesystem, called [`sysfs`](https://en.wikiped
 The GPIO also has such virtual files in the `/sys/class/gpio` directory and the [Luckfox wiki page](https://wiki.luckfox.com/Luckfox-Pico/Luckfox-Pico-GPIO/) contains info how to configure and interface with the GPIOs using these virtual files.
 In summary, to control the GPIOs in this way, the following steps should be performed in shell environment:
 1. Export the specific GPIO pin to user-space
-```
+```shell
 echo <pin_number> > /sys/class/gpio/export
 ```
 2. Configure the pin as input or output:
 - input:
-```
+```shell
 echo in > /sys/class/gpio<pin_number>/direction
 cat /sys/class/gpio<pin_number>/value
 ```
 - output:
-```
+```shell
 echo out > /sys/class/gpio<pin_number>/direction
 echo 0 > /sys/class/gpio<pin_number>/value
 echo 1 > /sys/class/gpio<pin_number>/value
 ```
 3. Unexport the GPIO pin from user-space after usage
-```
+```shell
 echo <pin_number> > /sys/class/gpio/unexport
 ```
 
