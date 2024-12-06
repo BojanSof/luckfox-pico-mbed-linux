@@ -1,7 +1,9 @@
-# Embedded linux using LuckFox Pico
+# Embedded Linux using LuckFox Pico
 
 The goal of this project is to explore Embedded Linux using [Luckfox Pico](https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico) board.
-Many things are going to be covered, including create bootable SD card, preparing dev environment, interfacing external devices, like displays, sensors, cameras and using computer vision models to perform actions.
+Things that are going to be covered include: create bootable SD card, preparing dev environment, interfacing external devices, like displays, sensors, cameras and example with computer vision models.
+
+![Overview](imgs/overview.png)
 
 ## Required hardware
 
@@ -9,6 +11,10 @@ Many things are going to be covered, including create bootable SD card, preparin
 - MicroSD card
 - SSD1306 128x64 OLED
 - SC3336 3MP Camera (A) module
+- Resistors
+- LEDs
+- Jumper wires
+- Breadboard
 
 ## Content
 
