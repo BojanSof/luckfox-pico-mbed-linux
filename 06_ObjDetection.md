@@ -73,3 +73,10 @@ The output image is stored under same directory, with name `out.png`.
 ![YOLO8 RKNN model example](imgs/yolo8_rknn.png)
 
 The performance between ONNX and RKNN models are very similar on the same test image.
+
+## Real-time object detection stream
+
+Finally, we can utilize the YOLOv8 object detection model with camera photos in real-time and use RTSP stream for streaming the images with bounding boxes of each detected object.
+The code for this example can be found under `user_apps/object_detection`, and it is heavily based on examples from [Luckfox Pico RKMPI examples repository](https://github.com/LuckfoxTECH/luckfox_pico_rkmpi_example).
+
+![Object detection RTSP preview](imgs/obj_detection.png)
